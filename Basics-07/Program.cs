@@ -38,9 +38,16 @@ internal class Program
         #endregion
 
         #region sixth answer
-        int genreNumber = 1;
-        Genre genre = (Genre)genreNumber;
-        Console.WriteLine(genre);
+        //int genreNumber = 1;
+        //Genre genre = (Genre)genreNumber;
+        //Console.WriteLine(genre);
+        #endregion
+
+        #region seventh answer
+        Genre genre = Genre.Fiction;
+        string strGenre = genre.ToString();
+        Console.WriteLine(strGenre);
+
         #endregion
 
     }
