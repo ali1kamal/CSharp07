@@ -22,8 +22,20 @@ internal class Program
         #endregion
 
         #region fourth answer
-        book.genre = Genre.Science;
-        Console.WriteLine(book.genre);
+        //book.genre = Genre.Science;
+        //Console.WriteLine(book.genre);
         #endregion
+
+        #region fifth answer
+        int genreFiction = (int)Genre.Fiction;
+        Console.WriteLine(genreFiction);
+
+        int genrenonFiction = (int)Genre.NonFiction;
+        Console.WriteLine(genrenonFiction);
+
+        int genreScience = (int)Genre.Science;
+        Console.WriteLine(genreScience);
+        #endregion
+
     }
 }
