@@ -14,7 +14,11 @@ internal class Book
     #endregion
 
     #region third answer
-    public string Title;
+    //public string Title;
 
+    #endregion
+
+    #region fourth answer
+    public Genre genre;
     #endregion
 }
