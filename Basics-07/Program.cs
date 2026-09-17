@@ -11,9 +11,15 @@ internal class Program
         #endregion
 
         #region second answer
+        //Book book = new Book();
+        ////it can be accessed here because it's internal so it can accessed across the same project
+        //Console.WriteLine(book.copiesInStock);
+        #endregion
+
+        #region third answer
         Book book = new Book();
-        //it can be accessed here because it's internal so it can accessed across the same project
-        Console.WriteLine(book.copiesInStock);
+        book.Title= "Clean Codde";
+        Console.WriteLine(book.Title);
         #endregion
     }
 }
