@@ -50,9 +50,18 @@ internal class Program
         #endregion
 
         #region 8th answer
-        string genreText = "Science";
-        Genre genre = Enum.Parse<Genre>(genreText);
-        Console.WriteLine(genre);
+        //string genreText = "Science";
+        //Genre genre = Enum.Parse<Genre>(genreText);
+        //Console.WriteLine(genre);
+        #endregion
+
+        #region 9th answer
+        string genreText = "Mystery";
+        bool flag = Enum.TryParse(genreText, out Genre genre);
+        if (!flag)
+            Console.WriteLine("Unknown genre");
+        else
+            Console.WriteLine(genre);
         #endregion
 
     }
