@@ -44,10 +44,15 @@ internal class Program
         #endregion
 
         #region seventh answer
-        Genre genre = Genre.Fiction;
-        string strGenre = genre.ToString();
-        Console.WriteLine(strGenre);
+        //Genre genre = Genre.Fiction;
+        //string strGenre = genre.ToString();
+        //Console.WriteLine(strGenre);
+        #endregion
 
+        #region 8th answer
+        string genreText = "Science";
+        Genre genre = Enum.Parse<Genre>(genreText);
+        Console.WriteLine(genre);
         #endregion
 
     }
